@@ -1,7 +1,14 @@
 <img src="https://raw.github.com/Marxon13/iOS-Asset-Extractor/master/ReadmeResources/iOSAssetExtractorBanner.png">
 
 #UPDATE
-###Open a terminal and navigate to the Products/ directory. Run ./GetAllAssets to extract all the assets from any *Simulator directory in your Xcode Development directory and create folders on your local desktop for them
+
+###Open a terminal and navigate to the Products/ directory. Run `./GetAllAssets` to extract all the assets from all *Simulator SDK directories in your Xcode app, create appropriately named folders on your local desktop holding them
+
+---
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 iOS Asset Extractor
 =============
