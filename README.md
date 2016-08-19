@@ -1,5 +1,8 @@
 <img src="https://raw.github.com/Marxon13/iOS-Asset-Extractor/master/ReadmeResources/iOSAssetExtractorBanner.png">
 
+#UPDATE
+###Open a terminal and navigate to the Products/ directory. Run ./GetAllAssets to extract all the assets from any *Simulator directory in your Xcode Development directory and create folders on your local desktop for them
+
 iOS Asset Extractor
 =============
 iOS Asset Extractor is a tool to extract images from the iOS SDK. It extracts PNGs, PDFs, and CAR files. I made this tool as I base the icons and images I use in my apps off of the images in Apple's stock apps. And it is much easier to have the original files, than it is to take screenshots.

@@ -1,0 +1,24 @@
+!# /bin/bash
+
+clear
+echo Xcode *Simulator Assets Extractor
+echo ---------------------------------
+echo
+
+if [ -f "assets.txt" ]; then
+  rm assets.txt
+fi
+echo "$(ls /Applications/Xcode.app/Contents/Developer/Platforms/ | grep Simulator)" >> assets.txt
+
+while read asset; do
+
+  name=$(echo "$asset" | sed 's/Simulator.platform//g')
+
+  echo Saving asset files from the $name simulator to the desktop...
+  ./iOSAssetExtractor -i /Applications/Xcode.app/Contents/Developer/Platforms/$asset -o ~/Desktop/$name-Assets -g 1 > /dev/null 2>&1
+  echo Done!
+  echo
+
+done < assets.txt
+
+#./iOSAssetExtractor -i /Applications/Xcode.app/Contents/Developer/Platforms/
